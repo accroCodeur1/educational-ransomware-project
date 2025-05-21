@@ -1,0 +1,25 @@
+{
+    "system": {
+      "type": "system",
+      "timestamp": "float",
+      "cpu_percent": "float",
+      "memory": {
+        "total": "int",
+        "available": "int",
+        "used_percent": "float"
+      },
+      "disk": {
+        "total": "int",
+        "used": "int",
+        "used_percent": "float"
+      }
+    },
+    "file_event": {
+      "type": "file_event",
+      "timestamp": "float",
+      "event": "string",
+      "path": "string",
+      "is_directory": "bool"
+    }
+  }
+  
